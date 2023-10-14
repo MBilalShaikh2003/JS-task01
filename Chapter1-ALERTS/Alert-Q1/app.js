@@ -1,0 +1,1 @@
+alert("WELCOME \n Have a nice day")
