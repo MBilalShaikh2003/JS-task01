@@ -1,0 +1,14 @@
+var a=10;
+var b=2;
+var diff;
+var prod;
+var mod;
+var div;
+diff=a-b;
+document.write("the difference of "+a+" and "+b+" is "+diff+"<br>");
+prod=a*b;
+document.write("the product of "+a+" and "+b+" is "+prod+"<br>");
+mod=a%b;
+document.write("the modulus of "+a+" and "+b+" is "+mod+"<br>");
+div=a/b;
+document.write("the division of "+a+" and "+b+" is "+div+"<br>");
