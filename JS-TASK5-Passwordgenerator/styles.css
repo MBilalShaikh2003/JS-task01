@@ -1,0 +1,67 @@
+body{
+    background-color: #1e81b0;
+}
+.icon{
+    height: 50px;
+}
+.main{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainhead{
+    color:white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    border-radius: 8px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 90%;
+    align-items: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-bottom: 50px;
+}
+
+.inp{
+    padding-top: 50px;
+    
+}
+.btndiv{
+    padding-top: 50px;
+}
+.heading{
+    color: black;
+    font-family: sans-serif;
+}
+.field{
+    height: 45px;
+   border-radius: 8px;
+    width: 400px;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    
+    outline: 0;
+}
+.copy{
+    height: 25px;
+    cursor: pointer;
+
+}
+.btn{
+    border-radius: 4px ;
+    background-color: #1e81b0;
+    height: 50px;
+    width: 220px;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+}

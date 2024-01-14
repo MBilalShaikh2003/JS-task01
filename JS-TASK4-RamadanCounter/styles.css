@@ -1,0 +1,21 @@
+
+body{
+    margin-top: 300px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    justify-content:center;
+    justify-content: space-between;
+    align-items:center;
+    
+    
+}
