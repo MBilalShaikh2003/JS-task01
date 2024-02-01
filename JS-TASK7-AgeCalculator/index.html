@@ -7,9 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <input placeholder="1" type="number" min="1" max="31">
-    <input type="month"  placeholder="Jan">
-    <input type="date">
+    
+    
+    <form id="dateForm">
+        <label for="inputDate">Select a Date:</label>
+        <input type="date" id="inputDate" name="inputDate">
+        <button type="button" onclick="storeDate()">Store Date</button>
+    </form>
+    <div>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+    </div>
     
 
     <script src="app.js"></script>
