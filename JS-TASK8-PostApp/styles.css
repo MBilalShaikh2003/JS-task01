@@ -1,0 +1,9 @@
+.text{
+    background: transparent;
+    border: none;
+    width: 100%;
+    border-bottom: solid 2px black;
+    
+    height: 100px;
+    
+}
