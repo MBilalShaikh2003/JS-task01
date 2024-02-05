@@ -27,7 +27,7 @@ if(type==="U"){
     if(text.style.textDecoration==="underline"){
         text.style.textDecoration="normal"
     }else{
-    text.style.textDecoration="bold"
+    text.style.textDecoration="underline"
 }
 }
 }
@@ -37,7 +37,7 @@ function changefontsize(){
 }
 function createpost(){
     var item=document.getElementById("items")
-    item
+    item.style.display="none"
 }
 
 
