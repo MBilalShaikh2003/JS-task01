@@ -13,14 +13,14 @@
     <div id="postbackground" class="bgx">
         <textarea id="text-area" class="text"></textarea>
     </div>
-    <div id="items">
+    <div id="items" class="itemz">
         <div>
             <ul>
                 <li><input type="range" onclick="changefontsize()"></li>
                 <li><input type="color" onchange="changecolor()"></li>
-                <li onclick="changestyle()">B</li>
-                <li onclick="changestyle()">I</li>
-                <li onclick="changestyle()">U</li>
+                <li onclick="changestyle()"><b>B</b></li>
+                <li onclick="changestyle()"><i>I</i></li>
+                <li onclick="changestyle()"><u>U</u></li>
             </ul>
         </div>
         <div>
@@ -37,7 +37,23 @@
             </ul>
         </div>
         <div>
-            <button  onclick="createpost()">Post</button>
+            <button id="postbutton" onclick="createpost()">Post</button>
+        </div>
+
+    </div>
+
+    <div class="imgz" id="tab">
+        <div class="imgztab">
+            <div><img class="icon" src="pics/like.png" alt=""></div>
+            <div style="font-size: x-large;">like</div>
+        </div>
+        <div class="imgztab">
+            <div><img class="icon" src="pics/comment.png" alt=""></div>
+            <div style="font-size: x-large;">comment</div>
+        </div>
+        <div class="imgztab">
+            <div><img class="icon" src="pics/share.png" alt=""></div>
+            <div style="font-size: x-large;">share</div>
         </div>
     </div>
     <script src="app.js"></script>

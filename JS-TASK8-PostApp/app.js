@@ -37,7 +37,12 @@ function changefontsize(){
 }
 function createpost(){
     var item=document.getElementById("items")
-    item.style.display="none"
+    item.style.display="none";
+    var tab = document.getElementById("tab");
+    tab.style.display="flex";    
+    var text=document.getElementById("text-area");
+    text.disabled=!text.disabled;
 }
+
 
 

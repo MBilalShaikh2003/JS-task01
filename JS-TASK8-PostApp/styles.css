@@ -11,4 +11,29 @@
     background-repeat: no-repeat;
     width: 100vh;
     height: 60vh;
+    /*margin-left: 500px;*/
+}
+.itemz{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    gap: 10px;
+}
+.icon{
+    height:24px;   
+}
+.imgz{
+    width: 96vh;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    padding: 10px;
+    justify-content: first baseline;
+}
+.imgztab{
+    display: flex;
+    justify-content: first baseline;
+    gap: 5px;
 }
