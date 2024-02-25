@@ -135,10 +135,29 @@ function setmodel(){
         model.innerHTML+=` <option value='${key}'>${key.toString().toUpperCase()}</option>`
     }
 }
-
+var batdetail=document.getElementById("batdetail");
 
 function searchbat(){
-    
+
+   
+    main.style.display="none";
+    batdetail.style.display="flex";
+    //console.log(batlist[brand.vlue][model.value]);
+    var bat=batlist[brand.value][model.value];
+    batdetail.innerHTML=` <div class="row g-0">
+    <div class="col-md-4">
+      <img src="${bat.image||"https://zeesports.co/cdn/shop/products/1_4f94e135-b922-4b40-94b4-eb17136ff2fe.jpg?v=1661969016&width=2048"}" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">${model.value.toUpperCase()}</h5>
+        <p class="card-text">${bat.name} </br> ${bat.size} </br> ${bat.weight} </br> ${bat.battype}</p>
+        <h6>${bat.price}</h6>
+      </div>
+    </div>
+  </div>`
+
+
 }
 
 
@@ -170,4 +189,7 @@ for (var key in batlist) {
 
 }
 
-
+function onclear(){
+    batdetail.style.display="none";
+    main.style.display="flex";
+}
