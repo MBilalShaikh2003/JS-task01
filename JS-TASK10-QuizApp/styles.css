@@ -1,0 +1,27 @@
+.head{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.form-control{
+    width: 80% !important;
+}
+.container-fluid{
+    background-color: red !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#cardbox{
+    display: none;
+    
+}
+#content{
+    display: none;
+}
